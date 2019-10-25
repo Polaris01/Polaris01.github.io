@@ -1148,7 +1148,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #5cff00;
+  background: #34bf79;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2478,4 +2478,35 @@ body::before {
   top: 0;
   left: 0;
   z-index: -2;
+}
+.main-inner {
+  background: #000;
+  padding: 10px;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.header {
+  background: url("") none repeat scroll !important;
+}
+侧栏图片及内部文字颜色修改,
+#sidebar {
+  background: url("https://tvax4.sinaimg.cn/thumbnail/005USwctly1g8a8n7g2yhj31ww12r1kx.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+侧栏图片及内部文字颜色修改 p,
+#sidebar p,
+侧栏图片及内部文字颜色修改 span,
+#sidebar span,
+侧栏图片及内部文字颜色修改 a,
+#sidebar a {
+  color: 0 0.255;
 }
