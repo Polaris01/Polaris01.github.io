@@ -1148,7 +1148,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #34bf79;
+  background: #2f4d3d;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2495,18 +2495,19 @@ body::before {
 .header {
   background: url("") none repeat scroll !important;
 }
-侧栏图片及内部文字颜色修改,
-#sidebar {
-  background: url("https://tvax4.sinaimg.cn/thumbnail/005USwctly1g8a8n7g2yhj31ww12r1kx.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.back-to-top {
+  right: 60px;
+  width: 70px;
+  height: 900px;
+  top: -900px;
+  bottom: unset;
+  transition: all 0.5s ease-in-out;
+  background: url("/images/scroll.png");
 }
-侧栏图片及内部文字颜色修改 p,
-#sidebar p,
-侧栏图片及内部文字颜色修改 span,
-#sidebar span,
-侧栏图片及内部文字颜色修改 a,
-#sidebar a {
-  color: 0 0.255;
+.back-to-top > i {
+  display: none;
+}
+.back-to-top.back-to-top-on {
+  bottom: unset;
+  top: calc(100vh - 900px - 200px);
 }
