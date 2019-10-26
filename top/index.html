@@ -29,9 +29,9 @@
     scheme: 'Pisces',
     version: '7.4.2',
     exturl: false,
-    sidebar: {"position":"left","display":"always","offset":12,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":8,"onmobile":false,"opacity":0.8},
     copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
@@ -167,11 +167,37 @@
       
         
         
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      
+    
+      
+      
+        
+        
         <li class="menu-item menu-item-tags">
       
     
 
     <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+      
+    
+      
+      
+        
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
 
   </li>
       
@@ -230,7 +256,10 @@
     
   </ul>
 
-</nav>
+</nav>//顶栏图片
+.header {
+          background:url(https://tva1.sinaimg.cn/thumbnail/005USwctly1g8bv4hwp4dj335s2dc4av.jpg) none repeat scroll !important;
+}
 </div>
     </header>
 
@@ -246,6 +275,12 @@
         <div class="content-wrap">
             
 
+  
+    
+    
+  
+    
+    
   
     
     
@@ -414,7 +449,7 @@
       
         
       
-        <a href="/1031215821@qq.com" title="E-Mail &amp;rarr; 1031215821@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+        <a href="https://weibo.com/u/5421132469/home" title="微博 &amp;rarr; https:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;5421132469&#x2F;home" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>微博</a>
       </span>
     
       <span class="links-of-author-item">
@@ -425,18 +460,7 @@
       
         
       
-        <a href="https://weibo.com/u/5421132469/home" title="Weibo &amp;rarr; https:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;5421132469&#x2F;home" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
-      </span>
-    
-      <span class="links-of-author-item">
-      
-      
-        
-      
-      
-        
-      
-        <a href="https://www.zhihu.com/people/meng-cheng-20/activities" title="zhihu &amp;rarr; https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;meng-cheng-20&#x2F;activities" rel="noopener" target="_blank"><i class="fa fa-fw fa-book"></i>zhihu</a>
+        <a href="https://www.zhihu.com/people/meng-cheng-20/activities" title="知乎 &amp;rarr; https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;meng-cheng-20&#x2F;activities" rel="noopener" target="_blank"><i class="fa fa-fw fa-book"></i>知乎</a>
       </span>
     
   </div>
@@ -444,11 +468,6 @@
 
 <div id="days"></div>
 <script>
-
-
-
-
-
 function show_date_time(){
     window.setTimeout("show_date_time()", 1000);
     BirthDay=new Date("10/01/2019 15:13:14");
