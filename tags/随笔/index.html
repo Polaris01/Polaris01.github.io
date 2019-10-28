@@ -56,17 +56,13 @@
   };
 </script>
 
-  <meta name="description" content="博客文章阅读量排行榜">
-<meta name="keywords" content="top,文章阅读量排行榜">
-<meta property="og:type" content="website">
-<meta property="og:title" content="热门文章">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;top&#x2F;index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="岁月如是">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;tags&#x2F;%E9%9A%8F%E7%AC%94&#x2F;index.html">
 <meta property="og:site_name" content="岁月如是">
-<meta property="og:description" content="博客文章阅读量排行榜">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-25T03:59:17.503Z">
 <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="http://yoursite.com/top/">
+  <link rel="canonical" href="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/">
 
 
 <script id="page-configurations">
@@ -75,15 +71,12 @@
     sidebar: "",
     isHome: false,
     isPost: false,
-    isPage: true,
+    isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>
-      热门文章 | 岁月如是
-    
-  </title>
+  <title>标签: -随笔 | 岁月如是</title>
   
 
 
@@ -302,68 +295,61 @@
           <div class="content">
             
 
-  <div class="posts-expand">
-    
-    
-    
-    <div class="post-block" lang="zh-CN">
-      <header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">热门文章
   
-
-</h1>
-
-<div class="post-meta">
-    <div class="post-description">博客文章阅读量排行榜</div>
   
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div id="top"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script>AV.initialize("app_id", "app_key");</script><script type="text/javascript">
-    var time=0
-    var title=""
-    var url=""
-    var query = new AV.Query('Counter');
-    query.notEqualTo('id',0);
-    query.descending('time');
-    query.limit(1000);
-    query.find().then(function (todo) {
-        for (var i=0;i<1000;i++){
-            var result=todo[i].attributes;
-            time=result.time;
-            title=result.title;
-            url=result.url;
-            var content="<a href='"+"https://reuixiy.github.io"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"阅读次数："+time+"</font>"+"<br /><br />";
-            document.getElementById("top").innerHTML+=content
-        }
-    }, function (error) {
-        console.log("error");
-    });
-</script><a id="more"></a>
-
-
-
-
-<style>.post-description { display: none; }</style>
-        
+  
+  <div class="post-block">
+    <div class="posts-collapse">
+      <div class="collection-title">
+        <h1 class="collection-header">-随笔
+          <small>标签</small>
+        </h1>
       </div>
-      
-      
-      
-    </div>
-    
 
+      
+
+  
+  
+
+  
     
-    
-    
+    <div class="collection-year">
+      <h1 class="collection-header">2019</h1>
+    </div>
+  
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2019-10-25T20:45:31+08:00"
+              content="2019-10-25">
+          10-25
+        </time>
+      </div>
+
+      <h2 class="post-title">
+        
+          <a class="post-title-link" href="/2019/10/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" itemprop="url">
+            <span itemprop="name">我的第一篇博客</span>
+          </a>
+        
+      </h2>
+
+    </header>
+  </article>
+
+
+
+    </div>
   </div>
+  
+  
+  
+
+  
+
 
 
           </div>
@@ -380,11 +366,6 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
-        
-        
-        
-        
-      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">

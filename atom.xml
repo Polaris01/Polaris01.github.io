@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-26T13:55:31.789Z</updated>
+  <updated>2019-10-28T14:31:34.204Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/10/26/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     <id>http://yoursite.com/2019/10/26/神经网络/</id>
     <published>2019-10-26T13:50:57.000Z</published>
-    <updated>2019-10-26T13:55:31.789Z</updated>
+    <updated>2019-10-28T14:31:34.204Z</updated>
     
     <summary type="html">
     
@@ -40,9 +40,9 @@
     <link href="http://yoursite.com/2019/10/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2019/10/25/我的第一篇博客/</id>
     <published>2019-10-25T12:45:31.000Z</published>
-    <updated>2019-10-26T13:43:33.620Z</updated>
+    <updated>2019-10-28T14:42:21.627Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><a class="btn" href="#">这是我的文章</a><p>  这个博客网站搭建了很久很久<br>  ![图片]<img src="https://tva4.sinaimg.cn/mw690/005USwctly1g8bv4hwp4dj335s2dc4av.jpg" alt="v2-430347f40a3fa1da306c36e60f2a1612_r"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><a class="btn" href="#">这是我的文章</a><p>  这个博客网站搭建了很久很久<br>  !<img src="https://tva4.sinaimg.cn/mw690/005USwctly1g8bv4hwp4dj335s2dc4av.jpg" alt="v2-430347f40a3fa1da306c36e60f2a1612_r"></p>]]></content>
     
     <summary type="html">
     
@@ -55,6 +55,10 @@
     </summary>
     
     
+      <category term="深度学习" scheme="http://yoursite.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="-随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
