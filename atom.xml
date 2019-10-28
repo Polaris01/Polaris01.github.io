@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-26T13:16:25.478Z</updated>
+  <updated>2019-10-26T13:55:31.789Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>神经网络</title>
+    <link href="http://yoursite.com/2019/10/26/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    <id>http://yoursite.com/2019/10/26/神经网络/</id>
+    <published>2019-10-26T13:50:57.000Z</published>
+    <updated>2019-10-26T13:55:31.789Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="深度学习" scheme="http://yoursite.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="神经网络" scheme="http://yoursite.com/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我的第一篇博客</title>
     <link href="http://yoursite.com/2019/10/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2019/10/25/我的第一篇博客/</id>
     <published>2019-10-25T12:45:31.000Z</published>
-    <updated>2019-10-26T13:16:25.478Z</updated>
+    <updated>2019-10-26T13:43:33.620Z</updated>
     
-    <content type="html"><![CDATA[<p>这是我的第一篇博客</p><h2 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h2><h1 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h1><a class="btn" href="#"><i class="fa fa-home fa-fw fa-lg"></i>我的啊会计师 & 大图标 (固定宽度)</a>]]></content>
+    <content type="html"><![CDATA[<h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><a class="btn" href="#">这是我的文章</a><p>  这个博客网站搭建了很久很久<br>  ![图片]<img src="https://tva4.sinaimg.cn/mw690/005USwctly1g8bv4hwp4dj335s2dc4av.jpg" alt="v2-430347f40a3fa1da306c36e60f2a1612_r"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;这是我的第一篇博客&lt;/p&gt;
-&lt;h2 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h2&gt;&lt;h1 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot;
+        &lt;h1 id=&quot;我的第一篇博客&quot;&gt;&lt;a href=&quot;#我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客&quot;&gt;&lt;/a&gt;我的第一篇博客&lt;/h1&gt;&lt;a class=&quot;btn&quot; href=&quot;#&quot;&gt;这是我的文章&lt;/a&gt;
+&lt;p&gt;  这个博客网站搭建了很久很久
       
     
     </summary>
